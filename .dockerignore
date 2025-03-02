@@ -1,8 +1,11 @@
 .venv
 venv
+.idea
+__pycache__
+.git
 Dockerfile
 docker-compose.yml
 .dockerignore
-test.py
-.idea
-__pycache__
+README.md
+.gitignore
+.env
