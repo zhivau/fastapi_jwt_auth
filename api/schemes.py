@@ -1,14 +1,14 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 
 
 class UserInfoRequest(BaseModel):
-    email: str
+    email: EmailStr
     password: str
 
 
 class UserInfoResponse(BaseModel):
     id: str
-    email: str
+    email: EmailStr
 
 
 class JwtResponse(BaseModel):
