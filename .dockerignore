@@ -1,0 +1,8 @@
+.venv
+venv
+Dockerfile
+docker-compose.yml
+.dockerignore
+test.py
+.idea
+__pycache__
